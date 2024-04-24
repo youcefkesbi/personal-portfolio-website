@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #081b29;
+    color: #ededed;
+}
+
+.header {
+    color: #ededed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 700px;
+}
+
+.home-content h1 {
+    color: #ededed;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+.home-content p {
+    color: #ededed;
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #00abf0;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn-box a:hover {
+    color: #081b29;
+    transition: .5s;
+}
+
+.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #00abf0;
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn-box a:hover::before {
+    width: 100%;
+}
+
+/* -------- skills --------- */
+
+.skills {
+    padding: 40px;
+    color: #ededed;
+}
+
+h3 {
+    padding-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills-col-1 {
+    flex-basis: 35%;
+}
+
+.skills-col-1 img {
+    width: 70%;
+    border-radius: 15px;
+}
+
+.skills-col-2 {
+    flex-basis: 60%;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.sub-title {
+    font-size: 42px;
+    font-weight: 600;
+    color: #ededed;
+}
+
+/* -------- projects --------- */
+
+#projects {
+    padding-top: 160px;
+}
+
+h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.project-card {
+    border: 1px solid #ededed;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.4s ease;
+    color: transparent;
+}
+
+.project-card a {
+    text-decoration: none;
+    border: none;
+    outline: 0;
+    outline-style: none;
+}
+
+.project-card2 {
+    background-color: #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.4s ease;
+    color: transparent; 
+}
+
+.project-card2 a {
+    text-decoration: none;
+    border: none;
+    outline: 0;
+    outline-style: none;
+}
+
+.project-card:hover {
+    background-color: #ededed;
+    color: #081b29;
+    transform: scale(1.1);
+}
+
+.project-card2:hover {
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+.project-card2:hover .project-info2 {
+    display: flex;
+    padding: 40px 0.3em 0px 0.3em;
+}
+
+.project-image img {
+    width: 100%;
+}
+
+.project-info {
+    color: #081b29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3em;
+    transform: scale(1.1);
+}
+
+.project-info2 {
+    color: #081b29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.1);
+    display: none;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+    padding-left: 20px;
+    font-size: 28px;
+}
+
+
+
+/* -------- Contact ---------- */
+
+#contact {
+    padding-top: 200px;
+}
+
+h5 {
+    font-size: 48px;
+}
+
+.contact-right {
+    flex-basis: 60%;
+    padding-right: 150px;
+}
+
+.contact-left {
+    flex-basis: 35%;
+    padding-left: 150px;
+}
+
+.contact-left p {
+    margin-top: 30px;
+}
+.contact-left p i {
+    color: #00abf0;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    font-size: 30px;
+    color: #ededed;
+    text-decoration: none;
+    margin-right: 15px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+    color: #00abf0;
+    transform: translateY(-5px);
+}
+
+.btn {
+    display: inline-block;
+    background: #00abf0;
+    padding: 5px 16px;
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: 450;
+    border-radius: 5px;
+    border: solid ;
+    cursor: pointer;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input, form textarea {
+    width: 90%;
+    height: 90%;
+    border: 0;
+    outline: none;
+    background: #92969e;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.copyright {
+    padding: 25px 0;
+    width: 100%;
+    text-align: center;
+    background: #92969e;
+    font-weight: 300;
+    margin-top: 80px;
+}
+
+/* ------------- CSS for small screens -------------- */
+header nav .fa-solid {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .logo {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .home-content h1 {
+        font-size: 28px;
+    }
+
+    .home-content h2 {
+        font-size: 20px;
+    }
+    
+    header nav .fa-solid {
+        display: block;
+        font-size: 25px;
+    }
+
+    header nav ul {
+        background: #00abf0;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        transition: right 0.5s;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 25px;
+    }
+
+    header nav ul .fa-solid {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    .home-content p {
+        font-size: 14px;
+    }
+
+    .skills-col-1, .skills-col-2 {
+        flex-basis: 100%;
+    }
+
+    .skills-col-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .skills-col-1 img {
+        width: 90%;
+    }
+
+    .sub-title {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    h3 {
+        padding-left: 16px;
+    }
+
+    .skills-col-2 p {
+        font-size: 16px;
+        padding: 0 16px;
+        line-height: normal;
+        color: #92969e;
+    }
+
+    .highlited {
+        color: #ededed;
+    }
+
+    .project-card {
+        min-height: 14em;
+        width: 22em;
+        margin: 20px;
+    }
+
+    .more {
+        padding: 20px 16px;
+        font-size: 16px;
+    }
+
+    #contact {
+        padding-top: 200px;
+        padding-left: 50px;
+    }
+
+    .contact-left {
+        /* justify-content: center;
+        align-items: center;
+        display: flex; */
+        flex-basis: 100%;
+        padding : 0;
+    }
+
+    .contact-right {
+        flex-basis: 100%;
+        /* padding-right: 0; */
+    }
+    
+    .contact-left p {
+        margin-top: 30px;
+    }
+    .contact-left p i {
+        color: #00abf0;
+        margin-right: 15px;
+        font-size: 25px;
+    }
+}
+
+#msg {
+    color: #61b752;
+    margin-top: -10px;
+    display: block;
+}

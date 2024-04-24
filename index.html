@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youcef Kesbi | Web Developer</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/7730ac1901.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Youcef Kesbi</a>
+        <nav class="navbar">
+            <ul id="sidemenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Youcef Kesbi</h1>
+            <h2>Frontend Developer</h2>
+            <p>A 2nd year software engineering student at Nisantasi University in Istanbul - Turkey.
+            <br>I speak English, Arabic, and Turkish.
+            <br>And I love creating beautiful and responsive websites.</p>
+            <div class="btn-box">
+                <a href="#contact">Contact me</a>
+            </div>
+        </div>
+    </section>
+
+<!-- ------- skills -------- -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="skills-col-1">
+                    <img src="./images/first.jpg">
+                </div>
+                <div class="skills-col-2">
+                    <h3 class="sub-title">Skills and Experience</h3>
+                    <p>I hava a good experience in <span class="highlited">HTML, CSS, and JavaScript.</span>
+                    <br>I have a good knowledge in software engineering subjects such as : <span class="highlited">Problem Solving, Object Oriented Programming, Data Structures and Algorithms ...</span>
+                    <br>I speak : <span class="highlited">English, Arabic, Turkish.</span>
+                    <br>I have joined <span class="highlited">Amazon Web Servers</span> and <span class="highlited">IBM Z</span> clubs at college and we've organized several events there.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- ------- Projects -------- -->
+    <section class="projects" id="projects">
+        <h6 class="sub-title">Projects</h6>
+        <div class="content">
+            <div class="project-card"><a href="#">
+                <div class="project-image">
+                    <img src="./images/personalwebsite.png">
+                </div>
+                <div class="project-info">
+                    <h4>Personal Portfolio Website</h4>
+                </div></a>
+            </div>
+            <div class="project-card2"><a href="https://youcefkesbi.github.io/To-do-list-app/">
+                <div class="project-image">
+                    <img src="./images/to-do-list.png">
+                </div>
+                <div class="project-info2">
+                    <h4>To-do list app</h4>
+                </div></a>
+            </div>
+            <p class="more">And more projects are coming soon ⏳ </p>
+        </div>
+    </section>
+
+<!-- ------- Contact -------- -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h5 class="sub-title">Contact Me</h5>
+                    <p><i class="fa-solid fa-envelope"></i> ykesbi@gmail.com</p>
+                    <p><i class="fa-brands fa-whatsapp"></i> +90 552 158 47 16</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/youcef.kesbi/"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://www.linkedin.com/in/youcef-kesbi-ba0035192/"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="https://github.com/youcefkesbi"><i class='bx bxl-github' ></i></a>
+                    </div>
+                </div>
+                <div class="contact right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Made with <i class="fa-solid fa-heart"></i> by Youcef Kesbi</p>
+    </div>
+
+</body>
+</html>
