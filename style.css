@@ -51,6 +51,10 @@ header nav ul li {
     display: inline-block;
 }
 
+header nav .fa-solid {
+    display: none;
+}
+
 .home {
     height: 100vh;
     display: flex;
@@ -180,66 +184,25 @@ h6 {
 
 .content {
     display: flex;
-    justify-content: center;
+    /* justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     margin-top: 30px;
-}
-
-.project-card {
-    border: 1px solid #ededed;
-    min-height: 14em;
-    width: 23em;
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 20px;
-    transition: 0.4s ease;
-    color: transparent;
-}
-
-.project-card a {
-    text-decoration: none;
-    border: none;
-    outline: 0;
-    outline-style: none;
-}
-
-.project-card2 {
-    background-color: #fff;
-    min-height: 14em;
-    width: 23em;
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 20px;
-    transition: 0.4s ease;
-    color: transparent; 
-}
-
-.project-card2 a {
-    text-decoration: none;
-    border: none;
-    outline: 0;
-    outline-style: none;
-}
-
-.project-card:hover {
-    background-color: #ededed;
-    color: #081b29;
-    transform: scale(1.1);
-}
-
-.project-card2:hover {
-    background-color: #fff;
-    transform: scale(1.1);
-}
-
-.project-card2:hover .project-info2 {
-    display: flex;
-    padding: 40px 0.3em 0px 0.3em;
 }
 
 .project-image img {
     width: 100%;
+}
+
+.project-card {
+    border: 1px solid #ededed;
+    max-height: 16em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.4s ease;
+    color: transparent;
 }
 
 .project-info {
@@ -251,6 +214,48 @@ h6 {
     transform: scale(1.1);
 }
 
+.project-card a {
+    text-decoration: none;
+    border: none;
+    outline: 0;
+    outline-style: none;
+}
+
+.project-card:hover {
+    color: #081b29;
+    transform: scale(1.1);
+}
+
+/* ----------- */
+
+.project-card2 {
+    background-color: #fff;
+    max-height: 16em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.4s ease;
+    color: transparent; 
+}
+
+.project-card2 a {
+    text-decoration: none;
+    border: none;
+    outline: 0;
+    outline-style: none;
+}
+
+.project-card2:hover {
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+.project-card2:hover .project-info2 {
+    display: flex;
+    padding: 80px 0.3em 0px 0.3em;
+}
+
 .project-info2 {
     color: #081b29;
     display: flex;
@@ -260,15 +265,85 @@ h6 {
     display: none;
 }
 
-.more {
-    display: flex;
-    justify-content: center;
-    padding-top: 160px;
-    padding-left: 20px;
-    font-size: 28px;
+/* ----------- */
+
+.project-card3 {
+    background-color: #fff;
+    border: 1px solid #ededed;
+    max-height: 16em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.4s ease;
+    color: transparent; 
 }
 
+.project-card3 a {
+    text-decoration: none;
+    border: none;
+    outline: 0;
+    outline-style: none;
+}
 
+.project-info3 {
+    color: #081b29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.1);
+    display: none;
+}
+
+.project-card3:hover {
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+.project-card3:hover .project-info3 {
+    display: flex;
+    padding: 10px 0.1em 0px 0.1em;
+}
+
+/* ----------- */
+
+.project-card4 {
+    background-color: #fff;
+    border: 1px solid #ededed;
+    max-height: 16em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.4s ease;
+    color: transparent; 
+}
+
+.project-card4 a {
+    text-decoration: none;
+    border: none;
+    outline: 0;
+    outline-style: none;
+}
+
+.project-info4 {
+    color: #081b29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.1);
+    display: none;
+}
+
+.project-card4:hover {
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+.project-card4:hover .project-info3 {
+    display: flex;
+    padding: 0px 0.1em 0px 0.1em;
+}
 
 /* -------- Contact ---------- */
 
@@ -355,10 +430,13 @@ form input, form textarea {
     margin-top: 80px;
 }
 
-/* ------------- CSS for small screens -------------- */
-header nav .fa-solid {
-    display: none;
+#msg {
+    color: #61b752;
+    margin-top: -10px;
+    display: block;
 }
+
+/* ------------- CSS for small screens -------------- */
 
 @media only screen and (max-width: 700px) {
 
@@ -459,16 +537,12 @@ header nav .fa-solid {
     }
 
     .contact-left {
-        /* justify-content: center;
-        align-items: center;
-        display: flex; */
         flex-basis: 100%;
         padding : 0;
     }
 
     .contact-right {
         flex-basis: 100%;
-        /* padding-right: 0; */
     }
     
     .contact-left p {
@@ -479,10 +553,4 @@ header nav .fa-solid {
         margin-right: 15px;
         font-size: 25px;
     }
-}
-
-#msg {
-    color: #61b752;
-    margin-top: -10px;
-    display: block;
 }
