@@ -195,7 +195,6 @@ h6 {
     overflow: hidden;
     border-radius: 10px;
     margin: 10px;
-    /* transition: 0.4s ease; */
     color: transparent;
 }
 
@@ -203,26 +202,11 @@ h6 {
     max-width: 100%;
 }
 
-/* .project-card1 a {
-    text-decoration: none;
-    border: none;
-    outline: 0;
-    outline-style: none;
-} */
-
-/* .project-card1:hover {
-    color: #081b29;
-    transform: scale(1.1);
-} */
-
-/* ----------- */
-
 .project-card2 {
     background-color: #fff;
     overflow: hidden;
     border-radius: 10px;
     margin: 10px;
-    /* transition: 0.4s ease; */
     color: transparent; 
     display: flex;
     align-items: center;
@@ -232,25 +216,12 @@ h6 {
     max-width: 100%;
 }
 
-/* .project-card2 a {
-    text-decoration: none;
-    border: 0;
-    outline: 0;
-    outline-style: none;
-} */
-
-/* .project-card2:hover {
-    display: flex;
-    padding: 80px 0.3em 0px 0.3em;
-} */
-
-/* ----------- */
-
 .project-card3 {
     border: 1px solid #ededed;
     overflow: hidden;
     border-radius: 10px;
     margin: 10px;
+    max-height: 16em;
 }
 
 .project-card3 img {
