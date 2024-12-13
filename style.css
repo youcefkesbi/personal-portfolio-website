@@ -143,7 +143,7 @@ h3 {
     padding-bottom: 20px;
 }
 
-.row {
+.about .container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -343,8 +343,6 @@ form input, form textarea {
     display: block;
 }
 
-/* ------------- CSS for small screens -------------- */
-
 @media only screen and (max-width: 768px) {
 
     .logo {
@@ -392,7 +390,7 @@ form input, form textarea {
         font-size: 14px;
     }
 
-    .about-col-1, .skills-col-2 {
+    .about-col-1, .about-col-2 {
         flex-basis: 100%;
     }
 
