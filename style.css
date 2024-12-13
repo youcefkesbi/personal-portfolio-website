@@ -164,6 +164,10 @@ h3 {
     font-size: 18px;
 }
 
+.highlited {
+    color: yellow;
+}
+
 .sub-title {
     font-size: 42px;
     font-weight: 600;
