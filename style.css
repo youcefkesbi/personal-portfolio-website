@@ -132,9 +132,9 @@ header nav .fa-solid {
     width: 100%;
 }
 
-/* -------- skills --------- */
+/* -------- About --------- */
 
-.skills {
+.about {
     padding: 40px;
     color: #ededed;
 }
@@ -149,16 +149,16 @@ h3 {
     flex-wrap: wrap;
 }
 
-.skills-col-1 {
+.about-col-1 {
     flex-basis: 35%;
 }
 
-.skills-col-1 img {
+.about-col-1 img {
     width: 70%;
     border-radius: 15px;
 }
 
-.skills-col-2 {
+.about-col-2 {
     flex-basis: 60%;
     line-height: 40px;
     font-size: 18px;
@@ -345,7 +345,7 @@ form input, form textarea {
 
 /* ------------- CSS for small screens -------------- */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
 
     .logo {
         font-size: 20px;
@@ -392,19 +392,26 @@ form input, form textarea {
         font-size: 14px;
     }
 
-    .skills-col-1, .skills-col-2 {
+    .about-col-1, .skills-col-2 {
         flex-basis: 100%;
     }
 
-    .skills-col-1 {
+    .about-col-1 {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 30px;
     }
 
-    .skills-col-1 img {
+    .about-col-1 img {
         width: 90%;
+    }
+
+    .about-col-2 p {
+        font-size: 16px;
+        padding: 0 16px;
+        line-height: normal;
+        color: #92969e;
     }
 
     .sub-title {
@@ -416,21 +423,19 @@ form input, form textarea {
         padding-left: 16px;
     }
 
-    .skills-col-2 p {
-        font-size: 16px;
-        padding: 0 16px;
-        line-height: normal;
-        color: #92969e;
-    }
-
-    .highlited {
-        color: #ededed;
+    .projects .container {
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
     }
 
     .project-card {
         min-height: 14em;
         width: 22em;
         margin: 20px;
+    }
+
+    .projects h1 {
+        white-space: nowrap;
     }
 
     .more {
