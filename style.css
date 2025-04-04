@@ -194,7 +194,11 @@ h6 {
     margin-top: 30px;
 }
 
-.project-card1 {
+.projects .card {
+    background-color: transparent;
+}
+
+/* .project-card1 {
     border: 1px solid #ededed;
     overflow: hidden;
     border-radius: 10px;
@@ -244,9 +248,9 @@ h6 {
 
 .project-card4 img {
     max-width: 100%;
-}
+} */
 
-.projects h1 {
+.projects h2 {
     margin-top: 20px;
     display: flex;
     justify-content: center;
