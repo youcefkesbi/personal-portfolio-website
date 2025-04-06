@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    /* background: #081b29; */
 }
 
 body {
@@ -198,58 +197,6 @@ h6 {
 .projects .container .card {
     background-color: #fff;
 }
-
-/* .project-card1 {
-    border: 1px solid #ededed;
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 10px;
-    color: transparent;
-}
-
-.project-card1 img {
-    max-width: 100%;
-}
-
-.project-card2 {
-    background-color: #fff;
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 10px;
-    color: transparent; 
-    display: flex;
-    align-items: center;
-}
-
-.project-card2 img {
-    max-width: 100%;
-}
-
-.project-card3 {
-    border: 1px solid #ededed;
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 10px;
-    max-height: 16em;
-}
-
-.project-card3 img {
-    width: 100%;
-    height: 100%;
-}
-
-.project-card4 {
-    background-color: #fff;
-    border: 1px solid #ededed;
-    max-height: 16em;
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-.project-card4 img {
-    max-width: 100%;
-} */
 
 .projects h2 {
     margin-top: 20px;
