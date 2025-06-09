@@ -101,10 +101,6 @@ header nav ul li {
     display: inline-block;
 }
 
-header nav .fa-solid {
-    display: none;
-}
-
 .home {
     min-height: 100vh;
     display: flex;
