@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youcef Kesbi | Full Stack Software Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="./images/yk.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Youcef Kesbi</a>
+        <nav class="navbar">
+            <ul id="sidemenu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Youcef Kesbi</h1>
+            <h2>Software Engineer</h2>
+            <p>A Full Stack Engineer passionate about crafting innovative web solutions, driven by a love for technology and a commitment to excellence.</p>
+            <div class="btn-box">
+                <a href="#contact">Contact me</a>
+                <a href="#projects">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-col-1">
+                <img src="./images/first.jpg" alt="Youcef Kesbi">
+            </div>
+            <div class="about-col-2">
+                <h3 class="sub-title">About me</h3>
+                <p>Youcef is a <span class="highlited">Software Engineer</span> ready for challenges and interested in exploring new technologies to deliver better results.
+                    <br>He is now studying for a <span class="highlited">Bachelor</span>'s degree in Software Engineering and works on side projects as a freelancer, as well as for himself. He loves working on both <span class="highlited">Frontend</span> and <span class="highlited">Backend</span> applications.
+                    <br>Youcef is ready to take the initiative in difficult situations and always strives to improve the product and bring new ideas.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h3 class="sub-title">Some Projects</h3>
+        <div class="container">
+            <div class="card">
+                <img src="./images/personalwebsite.png" class="card-img-top" alt="Personal Portfolio">
+                <div class="card-body">
+                    <h5 class="card-title">Personal Portfolio</h5>
+                    <p class="card-text">My personal portfolio website for showcasing my skills and projects.</p>
+                    <a href="https://github.com/youcefkesbi/personal-portfolio-website" class="btn btn-primary">Source Code</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./images/todo.png" class="card-img-top" alt="To-Do List">
+                <div class="card-body">
+                    <h5 class="card-title">To-Do List</h5>
+                    <p class="card-text">Responsive to-do list web application that stores the data locally on the browser.</p>
+                    <a href="https://github.com/youcefkesbi/To-do-list-app" class="btn btn-primary">Source Code</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./images/tindog1.png" class="card-img-top" alt="Tindog Project">
+                <div class="card-body">
+                    <h5 class="card-title">Tindog Project</h5>
+                    <p class="card-text">A frontend side of a dog selling website.</p>
+                    <a href="https://github.com/youcefkesbi/tindog-project" class="btn btn-primary">Source Code</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./images/drum2.png" class="card-img-top" alt="Drum Kit Project">
+                <div class="card-body">
+                    <h5 class="card-title">Drum Kit Project</h5>
+                    <p class="card-text">A drum kit website that allows you to drum using the mouse / touchpad or keyboard keys.</p>
+                    <a href="https://github.com/youcefkesbi/drum-kit" class="btn btn-primary">Source Code</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./images/Screenshot 1.png" class="card-img-top" alt="Secrets Project">
+                <div class="card-body">
+                    <h5 class="card-title">Secrets Project</h5>
+                    <p class="card-text">An API that shows a new secret every time you refresh the page and hover over the picture.</p>
+                    <a href="https://github.com/youcefkesbi/Secrets" class="btn btn-primary">Source Code</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./images/Screenshot 2025-04-06 at 10.06.49.png" class="card-img-top" alt="Blog API">
+                <div class="card-body">
+                    <h5 class="card-title">Blog API</h5>
+                    <p class="card-text">In this web app I've built my own API that retrieves the posts with their ID, Title, Content, Author and date from the "index" file.</p>
+                    <a href="https://github.com/youcefkesbi/Blog-API-Project" class="btn btn-primary">Source Code</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./images/Screenshot 2025-04-06 at 10.16.26.png" class="card-img-top" alt="Travel Tracker">
+                <div class="card-body">
+                    <h5 class="card-title">Travel Tracker</h5>
+                    <p class="card-text">A web app that helps you highlight the countries you've visited in different colors.</p>
+                    <a href="https://github.com/youcefkesbi/Family-Travel-Tracker" class="btn btn-primary">Source Code</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./images/Screenshot 2025-04-06 at 10.29.01.png" class="card-img-top" alt="Keeper App">
+                <div class="card-body">
+                    <h5 class="card-title">Keeper App</h5>
+                    <p class="card-text">A React components based to-do list app to CRUD (Create, Read, Update or Delete) your list items as you want.</p>
+                    <a href="https://github.com/youcefkesbi/keeper-app" class="btn btn-primary">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-left">
+                <h3 class="sub-title">Contact Me</h3>
+                <p><i class="fa-solid fa-envelope"></i> ykesbi@gmail.com</p>
+                <p><i class="fa-brands fa-whatsapp"></i> +90 552 158 47 16</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/youcef-kesbi/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/youcefkesbi" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Made with <i class="fa-solid fa-heart"></i> by Youcef Kesbi</p>
+    </div>
+
+    <button class="theme-toggle" onclick="toggleTheme()">
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <script src="https://kit.fontawesome.com/7730ac1901.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
