@@ -142,9 +142,10 @@ header nav ul li {
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 20px;
-    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    /* background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent;
+    color: var(--text-dark); */
 }
 
 .home-content h2 {
@@ -306,7 +307,7 @@ body.light-mode .card {
 }
 
 .card-title {
-    color: var(--primary-color);
+    color: var(--text-dark);
     font-weight: 600;
     margin-bottom: 10px;
 }
