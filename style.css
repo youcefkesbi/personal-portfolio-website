@@ -259,6 +259,7 @@ h3 {
 
 body.light-mode .projects {
     background: var(--background-light);
+
 }
 
 h6 {
@@ -310,6 +311,10 @@ body.light-mode .card {
     color: var(--text-dark);
     font-weight: 600;
     margin-bottom: 10px;
+}
+
+body.light-mode .card-title {
+    color: var(--text-light);
 }
 
 .card-text {
