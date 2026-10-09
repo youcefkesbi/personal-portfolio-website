@@ -1,16 +1,30 @@
-<h1> Personal Portfolio Website 👨🏻‍💻</h1>
-My Personal Portfolio that I showcase my Projects on it.<br>
-I chose the colors carefully which gives a special and distinct theme.<br>
-I built it on inspiration of multiple other dev's portfolios.<br>
-You can send me a message in the contact section that I'll receive on a spreadsheet with your name and email.<br>
-I updated the code multiple times for optimization and reducing volume by adding libraries like Bootstrap.<br>
+# 👨🏻‍💻 Personal Portfolio Website
 
-<h2> Built with : </h2>
-Basically: Html, CSS, JavaScript.<br>
-And it's responsive on either big or small screens.<br>
+A personal portfolio website designed to showcase my projects, highlight my development skills, and provide an easy way for visitors to get in touch with me.
 
-<h2>The link :</h2>
-https://youcefkesbi.github.io/personal-portfolio-website.<br>
+🌐 **Live Demo:** [View My Portfolio](https://youcefkesbi.github.io/personal-portfolio-website/)
 
-<h2> Author :</h2>
-Youcef Kesbi.
+## ✨ Features
+
+* **Personalized Design:** A carefully selected color palette and a distinctive visual theme.
+* **Responsive Layout:** Optimized for a seamless experience across desktop, tablet, and mobile devices.
+* **Contact Form:** Allows visitors to send messages, with submissions recorded in a spreadsheet along with the sender's name and email.
+* **Optimized Codebase:** Improved code structure and reduced code overhead through multiple iterations and the use of libraries such as Bootstrap.
+
+## 🛠️ Built With
+
+* **HTML5** — Website structure
+* **CSS3** — Styling and responsive design
+* **JavaScript** — Interactive functionality
+* **Bootstrap** — Responsive components and layout utilities
+
+## 👨🏻‍💻 Author
+
+**Youcef Kesbi**
+
+* GitHub: [@YoucefKesbi](https://github.com/YoucefKesbi)
+* Portfolio: [Visit Website](https://youcefkesbi.github.io/personal-portfolio-website/)
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository!
