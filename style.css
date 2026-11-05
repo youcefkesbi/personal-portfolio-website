@@ -275,6 +275,21 @@ h6 {
     margin-top: 50px;
 }
 
+.projects .container.projects-centered {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects .container.projects-centered .card {
+    width: min(100%, 420px);
+    flex: 0 1 420px;
+}
+
+.projects-follow {
+    margin-top: 80px;
+}
+
 .card {
     background: var(--card-bg-dark);
     border-radius: 15px;
