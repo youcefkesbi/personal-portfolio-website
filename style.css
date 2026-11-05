@@ -299,6 +299,12 @@ body.light-mode .card {
     transition: var(--transition);
 }
 
+.card-img-diagram {
+    height: 240px;
+    object-fit: contain;
+    background: #ffffff;
+}
+
 .card:hover .card-img-top {
     transform: scale(1.05);
 }
