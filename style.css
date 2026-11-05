@@ -279,6 +279,7 @@ h6 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 120px;
 }
 
 .projects .container.projects-centered .card {
@@ -286,8 +287,8 @@ h6 {
     flex: 0 1 420px;
 }
 
-.projects-follow {
-    margin-top: 140px;
+.projects h4.projects-follow {
+    margin-top: 80px;
 }
 
 .card {
