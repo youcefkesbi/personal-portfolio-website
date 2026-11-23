@@ -56,6 +56,34 @@ form.addEventListener('submit', e => {
         });
 });
 
+// Highlight the header link for the section currently in view
+const sectionLinks = document.querySelectorAll('.navbar a[href^="#"]');
+const pageSections = [...document.querySelectorAll('section[id]')];
+
+function updateActiveSection() {
+    const marker = (document.querySelector('.header')?.offsetHeight || 0) + 24;
+    const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+    let currentId = pageSections[0]?.id;
+
+    if (atBottom) {
+        currentId = pageSections[pageSections.length - 1].id;
+    } else {
+        pageSections.forEach(section => {
+            if (section.getBoundingClientRect().top <= marker) {
+                currentId = section.id;
+            }
+        });
+    }
+
+    sectionLinks.forEach(link => {
+        link.classList.toggle('active', link.getAttribute('href') === `#${currentId}`);
+    });
+}
+
+updateActiveSection();
+window.addEventListener('scroll', updateActiveSection, { passive: true });
+window.addEventListener('resize', updateActiveSection);
+
 // Smooth scroll for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
