@@ -405,6 +405,15 @@ h5 {
     flex: 1;
 }
 
+.contact-left .sub-title {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.contact-left h3 {
+    padding-bottom: 0;
+}
+
 .contact-left p {
     margin: 20px 0;
     display: flex;
